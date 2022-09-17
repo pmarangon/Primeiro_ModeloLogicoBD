@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T21:44:14.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zWqlZ91tePJv8BpkKTxK" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-17T21:46:06.075Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DTL1V1lOfyi5D7ohYvTk" version="20.3.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -199,10 +199,22 @@
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_clI_soAu5Ky4DToIVnS-24" value="Cliente" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1110" width="160" height="120" as="geometry" />
+          <mxGeometry x="590" y="1160" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_clI_soAu5Ky4DToIVnS-25" value="PK Id Cliente Int&#xa;Nome Varchar(10)&#xa;Nome do meio Varchar(3)&#xa;Sobrenome Varchar(20)&#xa;CPF Varchar(11)&#xa;Data de Nascimento DATE" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_clI_soAu5Ky4DToIVnS-24">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_clI_soAu5Ky4DToIVnS-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="_clI_soAu5Ky4DToIVnS-23" target="_clI_soAu5Ky4DToIVnS-24">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="375" y="1260" as="sourcePoint" />
+            <mxPoint x="475" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_clI_soAu5Ky4DToIVnS-27" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1.015;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_clI_soAu5Ky4DToIVnS-16">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="150" y="1160" as="sourcePoint" />
+            <mxPoint x="250" y="1060" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
